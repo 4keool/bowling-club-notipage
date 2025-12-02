@@ -41,15 +41,19 @@ export function Welcome({ message }: { message: string }) {
             <ul className="space-y-2 text-gray-700 dark:text-gray-300">
               <li className="flex items-start">
                 <span className="text-red-500 mr-2">•</span>
-                <span>언쟁·논쟁·싸움 발생 시 → 가해자·피해자 모두 강퇴 또는</span>
+                <span>언쟁·논쟁·싸움 발생 시 방장 판단에 따라 처리</span>
               </li>
               <li className="flex items-start ml-4">
                 <span className="text-red-500 mr-2">→</span>
-                <span>방장 판단으로 가해자 강퇴 또는 경고 1회 부여</span>
+                <span>경고 1회 부여 또는 즉시 강퇴</span>
+              </li>
+              <li className="flex items-start ml-4">
+                <span className="text-red-500 mr-2">→</span>
+                <span>상황에 따라 관련자 전원 강퇴 가능</span>
               </li>
               <li className="flex items-start">
                 <span className="text-red-500 mr-2">•</span>
-                <span>경고 후 동일 문제 재발 시 즉시 영구 강퇴</span>
+                <span className="font-semibold">경고를 받은 후 동일 문제 재발 시 즉시 영구 강퇴</span>
               </li>
             </ul>
           </div>
