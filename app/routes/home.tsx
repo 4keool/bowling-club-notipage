@@ -6,6 +6,7 @@ export function meta({ data }: Route.MetaArgs) {
   return [
     { title: data?.title ?? "볼터치" },
     { name: "description", content: data?.description ?? "Bowling Club Page" },
+    { tagName: "link", rel: "icon", href: data?.favicon ?? "/favicon.ico", type: "image/png" },
   ];
 }
 
@@ -24,8 +25,11 @@ export function loader({ request, context }: Route.LoaderArgs) {
     clubName,
     title: clubName === "Crush" ? "Bowling Club Crush" : "Bowling Club BowlTouch",
     description: clubName === "Crush" ? "크러쉬 공지 페이지입니다." : "볼터치 공지 페이지입니다.",
+    favicon: clubName === "Crush" ? "/favicon-crush.png" : "/favicon-bowltouch.png",
   };
 }
+
+
 
 export default function Home({ loaderData }: Route.ComponentProps) {
   const { clubName, message } = loaderData;
