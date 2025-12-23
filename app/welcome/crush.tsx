@@ -173,7 +173,7 @@ export function Crush() {
                                 <div className="ml-2 text-sm space-y-2 mt-2">
                                     <p className="space-y-2 bg-yellow-50 dark:bg-yellow-900/20 p-2 rounded border border-yellow-200 dark:border-yellow-800">
                                         <span className="block text-yellow-800 dark:text-yellow-200">※ 신입 회원은 가입일로부터 6개월 시정까지 적용</span>
-                                        <span className="block text-yellow-800 dark:text-yellow-200">※ 공중영에 따라 최저치는 변경 될 수 있음</span>
+                                        <span className="block text-yellow-800 dark:text-yellow-200">※ 공휴일에 따라 최저치는 변경 될 수 있음</span>
                                     </p>
                                     <p className="mt-3">출석률 <span className="bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300 font-bold px-2 py-1 rounded">80% 이상</span> 달성 회원에게 베네핏 제공 <span className="font-medium text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/20 px-2 py-1 rounded">(6개월 기준 12회 중 10회이상 참여)</span></p>
                                     <div className="bg-gray-50 dark:bg-gray-700/50 p-3 rounded-lg border border-gray-100 dark:border-gray-600">
