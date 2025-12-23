@@ -158,10 +158,10 @@ export function Crush() {
                             <div>
                                 <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-1 flex items-center">
                                     <span className="text-orange-500 mr-2">✔️</span>
-                                    3. 불개임 및 연말 이벤트 게임
+                                    3. 볼게임 및 연말 이벤트 게임
                                 </h3>
                                 <ul className="list-disc list-inside ml-2 space-y-1 text-sm">
-                                    <li>3개월에 한번씩 불개임 (볼링공 3~4개) 지급 방법은 추후 공지</li>
+                                    <li>3개월에 한번씩 볼게임 (볼링공 3~4개) 지급 방법은 추후 공지</li>
                                     <li>매년 12월 진행되는 연말 이벤트 게임에 회비 사용</li>
                                     <li>참가자 전원 참여 가능한 특별 게임 운영</li>
                                     <li>단, 전체 볼 지급 같은 고비용 선물은 제외하고, 이벤트 중심으로 운영</li>
