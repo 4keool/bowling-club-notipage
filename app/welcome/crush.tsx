@@ -179,9 +179,7 @@ export function Crush() {
                                     <div className="bg-gray-50 dark:bg-gray-700/50 p-3 rounded-lg border border-gray-100 dark:border-gray-600">
                                         <p className="font-semibold mb-2">베네핏 (택1):</p>
                                         <ul className="list-disc list-inside ml-2 space-y-1">
-                                            <li>정기전 시 1회 음료 지원</li>
                                             <li>연말 이벤트 참가비 할인</li>
-                                            <li>정기전비 1회 지원</li>
                                             <li>볼링 용품 set 지급</li>
                                             <li>음료 지원</li>
                                         </ul>
